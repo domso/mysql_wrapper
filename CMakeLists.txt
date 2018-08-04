@@ -12,5 +12,5 @@ file(GLOB src_all
 )
 
 add_library(mysql_wrapper STATIC ${src_all})
-target_link_libraries(mysql_wrapper ${OPENSSL_LIBRARIES} mysqlclient)
+target_link_libraries(mysql_wrapper mysqlclient)
 
